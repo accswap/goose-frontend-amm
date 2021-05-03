@@ -11,9 +11,9 @@
   "keywords": ["pancake", "default"],
   "tokens": [
     {
-      "name": "Goose Golden Egg",
-      "symbol": "EGG",
-      "address": "0xF952Fc3ca7325Cc27D15885d37117676d25BfdA6",
+      "name": "GADexSwap",
+      "symbol": "GADex",
+      "address": "0xd538142dca6d06c8807a008513fe08cc774a60da",
       "chainId": 56,
       "decimals": 18
     },
