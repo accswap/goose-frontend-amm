@@ -12,23 +12,23 @@ const config: MenuEntry[] = [
     items: [
       {
         label: 'Exchange',
-        href: 'https://app.gadexswap.finance/',
+        href: '/swap',
       },
       {
         label: 'Liquidity',
-        href: 'https://app.gadexswap.finance/#/pool',
+        href: '/pool',
       },
     ],
   },
   {
     label: 'Farms',
     icon: 'FarmIcon',
-    href: '/farms',
+    href: 'https://app.gadexswap.finance/farms',
   },
   {
     label: 'Nests',
     icon: 'PoolIcon',
-    href: '/nests',
+    href: 'https://app.gadexswap.finance/nests',
   },
   // {
   //   label: 'Pools',
