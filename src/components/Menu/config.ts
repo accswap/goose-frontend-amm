@@ -4,35 +4,49 @@ const config: MenuEntry[] = [
   {
     label: 'Home',
     icon: 'HomeIcon',
-    href: 'https://www.gadexswap.finance/'
+    href: '/',
   },
   {
     label: 'Trade',
     icon: 'TradeIcon',
-    initialOpenState: true,
     items: [
       {
         label: 'Exchange',
-        href: '/swap'
+        href: 'https://app.gadexswap.finance/',
       },
       {
         label: 'Liquidity',
-        href: '/pool'
-      }
-    ]
+        href: 'https://app.gadexswap.finance/#/pool',
+      },
+    ],
   },
   {
     label: 'Farms',
     icon: 'FarmIcon',
-    href: 'https://www.gadexswap.finance/farms'
+    href: '/farms',
   },
   {
     label: 'Nests',
     icon: 'PoolIcon',
-    href: 'https://www.gadexswap.finance/nests'
+    href: '/nests',
   },
+  // {
+  //   label: 'Pools',
+  //   icon: 'PoolIcon',
+  //   href: '/pools',
+  // },
+  // {
+  //   label: 'Lottery',
+  //   icon: 'TicketIcon',
+  //   href: '/lottery',
+  // },
+  // {
+  //   label: 'NFT',
+  //   icon: 'NftIcon',
+  //   href: '/nft',
+  // },
   {
-    label: 'Info',
+    label: 'Listing',
     icon: 'InfoIcon',
     items: [
       {
@@ -51,39 +65,39 @@ const config: MenuEntry[] = [
         label: 'AstroTools',
         href: '#',
       },
-    ]
+    ],
   },
   {
     label: 'More',
     icon: 'MoreIcon',
     items: [
       {
-        label: "Whitepaper",
-        href: "#",
+        label: 'Whitepaper',
+        href: '#',
       },
       {
-        label: "Github",
-        href: "https://github.com/goosedefi/",
+        label: 'Github',
+        href: 'https://github.com/gadexswap/',
       },
       {
-        label: "Docs",
-        href: "#",
+        label: 'Docs',
+        href: '#',
       },
       {
-        label: "Blog",
-        href: "https://gadexswap.medium.com/",
+        label: 'Blog',
+        href: 'https://gadexswap.medium.com/',
       },
     ],
   },
   {
     label: 'Audit by Hacken',
     icon: 'AuditIcon',
-    href: 'https://www.gadexswap.finance/files/hackenAudit.pdf',
+    href: '#',
   },
   {
     label: 'Audit by CertiK',
     icon: 'AuditIcon',
-    href: 'https://certik.org/projects/goose-finance',
+    href: '#',
   },
 ]
 
