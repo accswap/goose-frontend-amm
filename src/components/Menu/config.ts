@@ -23,12 +23,12 @@ const config: MenuEntry[] = [
   {
     label: 'Farms',
     icon: 'FarmIcon',
-    href: 'https://app.gadexswap.finance/farms',
+    href: 'https://gadexswap.finance/farms',
   },
   {
     label: 'Nests',
     icon: 'PoolIcon',
-    href: 'https://app.gadexswap.finance/nests',
+    href: 'https://gadexswap.finance/nests',
   },
   // {
   //   label: 'Pools',
@@ -68,20 +68,30 @@ const config: MenuEntry[] = [
     ],
   },
   {
+    label: 'Social',
+    icon: 'GooseIcon',
+    items: [
+      {
+        label: 'Twitter',
+        href: 'https://twitter.com/GADex19',
+      },
+      {
+        label: 'Telegram',
+        href: 'https://t.me/GadexCommunity',
+      },
+    ],
+  },
+  {
     label: 'More',
     icon: 'MoreIcon',
     items: [
       {
         label: 'Whitepaper',
-        href: '#',
+        href: 'https://gadexswap.finance/files/white_paper_gadex.pdf',
       },
       {
         label: 'Github',
         href: 'https://github.com/gadexswap/',
-      },
-      {
-        label: 'Docs',
-        href: '#',
       },
       {
         label: 'Blog',
