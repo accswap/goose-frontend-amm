@@ -68,20 +68,6 @@ const config: MenuEntry[] = [
     ],
   },
   {
-    label: 'Social',
-    icon: 'GooseIcon',
-    items: [
-      {
-        label: 'Twitter',
-        href: 'https://twitter.com/GADex19',
-      },
-      {
-        label: 'Telegram',
-        href: 'https://t.me/GadexCommunity',
-      },
-    ],
-  },
-  {
     label: 'More',
     icon: 'MoreIcon',
     items: [
