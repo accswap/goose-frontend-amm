@@ -4,7 +4,7 @@ const config: MenuEntry[] = [
   {
     label: 'Home',
     icon: 'HomeIcon',
-    href: '/',
+    href: 'https://gadexswap.finance/',
   },
   {
     label: 'Trade',
@@ -81,7 +81,7 @@ const config: MenuEntry[] = [
       },
       {
         label: 'Blog',
-        href: 'https://gadex.medium.com/',
+        href: 'https://gadexswap.medium.com/',
       },
     ],
   },
